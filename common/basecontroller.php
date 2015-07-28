@@ -51,7 +51,7 @@ abstract class BaseController
     protected function ReturnViewByName($name, $model, $layoutname = "layout")
     {
 
-        $location = 'views/'.strtolower(get_class($this)).'/'.strtolower($this->action).'.php';
+        $location = 'views/'.strtolower(get_class($this)).'/'.$name.'.php';
 
         if($layoutname)
         {

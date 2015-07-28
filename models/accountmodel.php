@@ -312,8 +312,6 @@ class AccountModel extends BaseModel
     {
 
         //Validation
-
-        //Wizard page 1
         if(!isset($first_name) || $first_name == '')
         {
             $this->addModelError('first_name', new ModelError('Please enter your first name'));
@@ -363,6 +361,8 @@ class AccountModel extends BaseModel
 
             $stmt->execute();
             $stmt->closeCursor();
+
+
         }
     }
 

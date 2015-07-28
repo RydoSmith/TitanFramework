@@ -27,7 +27,7 @@ class Account extends BaseController
             $model->setMesssage(MessageType::Success, 'Sign-up Success!', 'Welcome! Please check your email and follow the instructions to complete the registration process.');
             $model->setPageTitle('Sign Up');
 
-            $this->ReturnViewByName("checkyouremail", $model->view, 'layout_no_footer');
+            $this->ReturnViewByName("checkyouremail", $model->view, 'layout_plain');
         }
         else
         {

@@ -1,4 +1,4 @@
-<div class="container" style="text-align: center; padding-top: 60px;">
+<div class="container">
     <h2>
         <span class="glyphicon glyphicon-ok"></span>
         Your account has been created
