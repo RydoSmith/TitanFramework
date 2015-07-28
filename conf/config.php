@@ -3,9 +3,9 @@
 return array(
 
     //App properties
-    'name' => 'TitanFramework',
+    'app_name' => 'TitanFramework',
     'environment' => $_SERVER['REMOTE_ADDR'] == '192.168.1.6' ? 'test' : 'production',
-    'domain' => '192.168.1.6',
+    'domain' => 'TitanFramework.com',
 
     //Database
     'db_location' => 'localhost',
@@ -15,6 +15,7 @@ return array(
 
     //Email
     'email_system' => 'support@titanframework.com',
+    'email_support' => 'support@titanframework.com',
     'smtp_host' => 'smtp.gmail.com',
     'smtp_user' => 'rydosmith2@gmail.com',
     'smtp_password' => 'R160689s'

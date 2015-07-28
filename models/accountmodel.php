@@ -373,26 +373,28 @@ class AccountModel extends BaseModel
         $to = $e;
         $e = sha1($e);
         $d = $this->config['domain'];
+        $app_name = $this->config['app_name'];
+        $email_support = $this->config['email_support'];
 
-        $subject = "[App] Please Verify Your Account";
+        $subject = "[$app_name] Please Verify Your Account";
         $body =
             <<<EMAIL
-                        You have a new account!
+            You have a new account at $app_name!
 
-            To get started, please activate your account by completing and your registration.
+            To get started, please activate your account by completing your registration.
             Just follow the link below.
 
             You can choose a secure password when you complete your activation.
 
             Activate your account: http://$d/account/verify/$v/$e
 
-            If you have any questions, please contact support@a.com.
+            If you have any questions, please contact $email_support.
 
             --
             Thanks!
 
             The Team
-            www.a.com
+            www.$d
 EMAIL;
 
         $email = new Email($this->config);
@@ -404,23 +406,24 @@ EMAIL;
         $to = $e;
         $e = sha1($e);
         $d = $this->config['domain'];
+        $app_name = $this->config['app_name'];
+        $email_support = $this->config['email_support'];
 
-        $subject = "[EquityHolder] Password Reset Request";
+        $subject = "[$app_name] Password Reset Request";
         $body =
             <<<EMAIL
-                        Your have requested a change of password, try to keep this one in a safe place!
-
+            Your have requested a change of password, try to keep this one in a safe place!
             To reset your password follow the link below. You can choose a new secure password.
 
             Reset your password: http://$d/home/account/resetpassword/$v/$e
 
-            If you have any questions or did not make this request, please contact support@equityholder.com.
+            If you have any questions or did not make this request, please contact $email_support.
 
             --
             Thanks!
 
             The Team
-            www.EquityHolder.com
+            www.$d
 EMAIL;
 
         $email = new Email($this->config);
