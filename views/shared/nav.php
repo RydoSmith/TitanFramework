@@ -1,0 +1,1 @@
+<a href="/account/signup">Sign Up</a> | <a href="/account/login">Login</a>
