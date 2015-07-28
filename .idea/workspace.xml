@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed64e6d-3c35-455a-9624-9d8102e29e80" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shared/header.php" afterPath="$PROJECT_DIR$/views/shared/header.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shared/footer.php" afterPath="$PROJECT_DIR$/views/shared/footer.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home/index.php" afterPath="$PROJECT_DIR$/views/home/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shared/nav.php" afterPath="$PROJECT_DIR$/views/shared/nav.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
     </list>
     <ignored path="TitanFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,11 +77,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nav.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="nav.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/shared/nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
-              <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="459">
+              <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/home/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="221">
+              <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/shared/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.058419243" vertical-offset="0" max-vertical-offset="582">
+              <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -108,63 +141,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="layout_plain.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/shared/layouts/layout_plain.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="357">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="checkyouremail.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/account/checkyouremail.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="204">
-              <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="accountmodel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/accountmodel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-32.846153" vertical-offset="336" max-vertical-offset="1751">
-              <caret line="347" column="32" selection-start-line="347" selection-start-column="32" selection-end-line="347" selection-end-column="32" />
-              <folding>
-                <element signature="n#__construct#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#SignUp#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#SignUp_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Login#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Login_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Password#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Password_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#ResetPassword#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#ResetPassword_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Verify#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Verify_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#Complete#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#sendVerificationEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <element signature="n#sendPasswordResetEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
-                <marker date="1438099660589" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
-                <marker date="1438099660589" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
-                <marker date="1438099660589" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
-                <marker date="1438099660589" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
-                <marker date="1438099660589" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
-                <marker date="1438099660589" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
-                <marker date="1438099660589" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
-                <marker date="1438099660589" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
-                <marker date="1438099660589" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
-                <marker date="1438099660589" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
-                <marker date="1438099660589" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
-                <marker date="1438099660589" expanded="true" signature="10459:10695" placeholder="UPDATE users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="Git.Settings">
@@ -180,6 +156,10 @@
         <option value="$PROJECT_DIR$/views/shared/layouts/layout_plain.php" />
         <option value="$PROJECT_DIR$/controllers/account.php" />
         <option value="$PROJECT_DIR$/views/shared/header.php" />
+        <option value="$PROJECT_DIR$/views/shared/nav.php" />
+        <option value="$PROJECT_DIR$/views/home/index.php" />
+        <option value="$PROJECT_DIR$/public/css/style.css" />
+        <option value="$PROJECT_DIR$/views/shared/footer.php" />
       </list>
     </option>
   </component>
@@ -288,6 +268,24 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -304,56 +302,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="account" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TitanFramework" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,7 +408,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32911393" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -470,7 +418,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -551,18 +499,18 @@
             <element signature="n#Complete#0;n#AccountModel#0;n#!!top" expanded="false" />
             <element signature="n#sendVerificationEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
             <element signature="n#sendPasswordResetEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
-            <marker date="1438099660589" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
-            <marker date="1438099660589" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
-            <marker date="1438099660589" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
-            <marker date="1438099660589" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
-            <marker date="1438099660589" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
-            <marker date="1438099660589" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
-            <marker date="1438099660589" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
-            <marker date="1438099660589" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
-            <marker date="1438099660589" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
-            <marker date="1438099660589" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
-            <marker date="1438099660589" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
-            <marker date="1438099660589" expanded="true" signature="10459:10695" placeholder="UPDATE users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT passw..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT verif..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1438099660589" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
           </folding>
         </state>
       </provider>
@@ -572,21 +520,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
           <caret line="0" column="22" selection-start-line="0" selection-start-column="22" selection-end-line="0" selection-end-column="22" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.307693" vertical-offset="268" max-vertical-offset="1105">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="n#Login#0;n#Account#0;n#!!top" expanded="false" />
-            <element signature="n#Password#0;n#Account#0;n#!!top" expanded="false" />
-            <element signature="n#Verify#0;n#Account#0;n#!!top" expanded="false" />
-            <element signature="n#ResetPassword#0;n#Account#0;n#!!top" expanded="false" />
-            <element signature="n#Complete#0;n#Account#0;n#!!top" expanded="false" />
-            <element signature="n#Logout#0;n#Account#0;n#!!top" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -610,10 +543,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shared/header.php">
+    <entry file="file://$PROJECT_DIR$/views/shared/layouts/layout.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="527">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shared/nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="459">
+          <caret line="9" column="53" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/home/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
+          <caret line="0" column="35" selection-start-line="0" selection-start-column="35" selection-end-line="0" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -626,18 +575,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shared/layouts/layout.php">
+    <entry file="file://$PROJECT_DIR$/controllers/account.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.461538" vertical-offset="0" max-vertical-offset="374">
-          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        <state vertical-scroll-proportion="-9.307693" vertical-offset="268" max-vertical-offset="1105">
+          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+          <folding>
+            <element signature="n#Login#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Password#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Verify#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#ResetPassword#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Complete#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Logout#0;n#Account#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shared/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="527">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/shared/nav.php">
+    <entry file="file://$PROJECT_DIR$/public/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="582">
-          <caret line="0" column="74" selection-start-line="0" selection-start-column="74" selection-end-line="0" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shared/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058419243" vertical-offset="0" max-vertical-offset="582">
+          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
           <folding />
         </state>
       </provider>
