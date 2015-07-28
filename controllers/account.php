@@ -184,6 +184,7 @@ class Account extends BaseController
         $this->Redirect('app', 'dashboard');
     }
 
+    /* LOGOUT */
     protected function Logout()
     {
         // Unset all of the session variables.

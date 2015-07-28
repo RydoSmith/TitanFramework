@@ -367,7 +367,7 @@ class AccountModel extends BaseModel
     }
 
 
-    //HELPERS
+    //EMAIL SEND METHODS
     private function sendVerificationEmail($e, $v)
     {
         $to = $e;

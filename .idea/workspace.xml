@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0ed64e6d-3c35-455a-9624-9d8102e29e80" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/account.php" afterPath="$PROJECT_DIR$/controllers/account.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/models/accountmodel.php" afterPath="$PROJECT_DIR$/models/accountmodel.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/conf/config.php" afterPath="$PROJECT_DIR$/conf/config.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TitanFramework.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,34 +38,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="account.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="account.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/controllers/account.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="108.38461" vertical-offset="3056" max-vertical-offset="3638">
-              <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-              <folding />
+            <state vertical-scroll-proportion="0.55498284" vertical-offset="153" max-vertical-offset="1445">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <element signature="n#Login#0;n#Account#0;n#!!top" expanded="false" />
+                <element signature="n#Password#0;n#Account#0;n#!!top" expanded="false" />
+                <element signature="n#Verify#0;n#Account#0;n#!!top" expanded="false" />
+                <element signature="n#ResetPassword#0;n#Account#0;n#!!top" expanded="false" />
+                <element signature="n#Complete#0;n#Account#0;n#!!top" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accountmodel.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="accountmodel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/models/accountmodel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.2560138" vertical-offset="6494" max-vertical-offset="7446">
-              <caret line="425" column="18" selection-start-line="425" selection-start-column="18" selection-end-line="425" selection-end-column="18" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="408" max-vertical-offset="1530">
+              <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
               <folding>
-                <marker date="1438098702351" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
-                <marker date="1438098702351" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
-                <marker date="1438098702351" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
-                <marker date="1438098702351" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
-                <marker date="1438098702351" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
-                <marker date="1438098702351" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
-                <marker date="1438098702351" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
-                <marker date="1438098702351" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
-                <marker date="1438098702351" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
-                <marker date="1438098702351" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
-                <marker date="1438098702351" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
-                <marker date="1438098702351" expanded="true" signature="10484:10720" placeholder="UPDATE users..." />
+                <element signature="n#__construct#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#SignUp#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Login#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Login_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Password#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Password_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#ResetPassword#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#ResetPassword_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Verify#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Complete#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#Complete_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#sendVerificationEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <element signature="n#sendPasswordResetEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
+                <marker date="1438098975016" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
+                <marker date="1438098975016" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
+                <marker date="1438098975016" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
+                <marker date="1438098975016" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
+                <marker date="1438098975016" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
+                <marker date="1438098975016" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
+                <marker date="1438098975016" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
+                <marker date="1438098975016" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
+                <marker date="1438098975016" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
+                <marker date="1438098975016" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
+                <marker date="1438098975016" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
+                <marker date="1438098975016" expanded="true" signature="10484:10720" placeholder="UPDATE users..." />
               </folding>
             </state>
           </provider>
@@ -82,6 +100,7 @@
       <list>
         <option value="$PROJECT_DIR$/conf/config.php" />
         <option value="$PROJECT_DIR$/models/accountmodel.php" />
+        <option value="$PROJECT_DIR$/controllers/account.php" />
       </list>
     </option>
   </component>
@@ -134,6 +153,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TitanFramework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="account" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -277,18 +328,12 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/controllers/account.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="108.38461" vertical-offset="3056" max-vertical-offset="3638">
-          <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/conf/config.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="459">
@@ -299,21 +344,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/models/accountmodel.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.2560138" vertical-offset="6494" max-vertical-offset="7446">
-          <caret line="425" column="18" selection-start-line="425" selection-start-column="18" selection-end-line="425" selection-end-column="18" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="408" max-vertical-offset="1530">
+          <caret line="53" column="0" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding>
-            <marker date="1438098702351" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
-            <marker date="1438098702351" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
-            <marker date="1438098702351" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
-            <marker date="1438098702351" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
-            <marker date="1438098702351" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
-            <marker date="1438098702351" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
-            <marker date="1438098702351" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
-            <marker date="1438098702351" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
-            <marker date="1438098702351" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
-            <marker date="1438098702351" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
-            <marker date="1438098702351" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
-            <marker date="1438098702351" expanded="true" signature="10484:10720" placeholder="UPDATE users..." />
+            <element signature="n#__construct#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#SignUp#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Login#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Login_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Password#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Password_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#ResetPassword#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#ResetPassword_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Verify#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Complete#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#Complete_POST#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#sendVerificationEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <element signature="n#sendPasswordResetEmail#0;n#AccountModel#0;n#!!top" expanded="false" />
+            <marker date="1438098975016" expanded="true" signature="638:699" placeholder="SELECT COUNT..users..." />
+            <marker date="1438098975016" expanded="true" signature="1485:1564" placeholder="INSERT INTO ..." />
+            <marker date="1438098975016" expanded="true" signature="2438:2515" placeholder="SELECT COUNT..users..." />
+            <marker date="1438098975016" expanded="true" signature="3024:3115" placeholder="SELECT COUNT..users..." />
+            <marker date="1438098975016" expanded="true" signature="3571:3612" placeholder="SELECT passw..users..." />
+            <marker date="1438098975016" expanded="true" signature="4891:4964" placeholder="SELECT COUNT..users..." />
+            <marker date="1438098975016" expanded="true" signature="5539:5605" placeholder="SELECT verif..users..." />
+            <marker date="1438098975016" expanded="true" signature="5993:6068" placeholder="UPDATE users..." />
+            <marker date="1438098975016" expanded="true" signature="6499:6656" placeholder="SELECT * FRO..users..." />
+            <marker date="1438098975016" expanded="true" signature="7939:8084" placeholder="UPDATE users..." />
+            <marker date="1438098975016" expanded="true" signature="8478:8621" placeholder="SELECT * FRO..users..." />
+            <marker date="1438098975016" expanded="true" signature="10484:10720" placeholder="UPDATE users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.55498284" vertical-offset="153" max-vertical-offset="1445">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="n#Login#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Password#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Verify#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#ResetPassword#0;n#Account#0;n#!!top" expanded="false" />
+            <element signature="n#Complete#0;n#Account#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
